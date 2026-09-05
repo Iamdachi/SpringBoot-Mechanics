@@ -3,6 +3,9 @@ package org.example.bootmechanics;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import org.springframework.boot.web.server.servlet.context.ServletComponentScan;
+
+@ServletComponentScan // so that I can add barebone custom Servlets
 @SpringBootApplication
 public class BootMechanicsApplication {
 

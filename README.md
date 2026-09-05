@@ -15,9 +15,7 @@ What is Tomcat?  Web Server/Servlet Container. An implementation of Jakarta EE:
 - JavaServer Pages, Java Expression Language, Java WebSockets  
 
 How is Tomcat Auto Embedded in Spring Boot?  
-spring-boot-starter-web includes Tomcat by including spring-boot-starter-tomcat.
-
-What is the basics of Servlet API?  
+spring-boot-starter-web includes Tomcat by including spring-boot-starter-tomcat.  
 
 ### Netty
 What is Netty? Why switch?  
