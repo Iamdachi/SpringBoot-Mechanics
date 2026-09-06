@@ -21,4 +21,13 @@ spring-boot-starter-web includes Tomcat by including spring-boot-starter-tomcat.
 What is Netty? Why switch?  
 Explain how Spring Boot's Auto-Configuration engine decides not to load an embedded Tomcat server if you switch to Netty.
 
+### Spring Data JPA & Hibernate
+How does Spring Data JPA generate SQL queries dynamically from a repository method name like findFirstByStatusAndCreatedAtAfter?  
+Explain the N+1 select problem in Hibernate. How do you diagnose it, and what are three ways to solve it using Spring Data JPA?  
+How do you implement efficient pagination and sorting in Spring Data JPA without pulling the entire dataset into JVM memory?  
+What is the purpose of the Hibernate First-Level Cache (Persistence Context)? How long does its lifecycle last?  
+How do you configure multiple independent DataSources and EntityManagers within a single Spring Boot application?  
+How do you map a many-to-many relationship cleanly in JPA without creating a bloated join table entity unless business logic requires it?  
+
+
 
